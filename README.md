@@ -14,8 +14,7 @@ Postman (for API testing)
 
 Clone the Project
 
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone  https://github.com/SSChauhan7080/CrudOperation/tree/main
 
 Configure the Database
 
@@ -25,15 +24,15 @@ Open the application.properties file.
 
 Change the database credentials according to your local setup:
 
-spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name
-spring.datasource.username=your_mysql_username
+spring.datasource.url=jdbc:mysql://localhost:3306/saurabh
+spring.datasource.username=root
 spring.datasource.password=your_mysql_password
 
 Replace:
 
-your_database_name with your MySQL database name
+saurabh with your MySQL database name
 
-your_mysql_username with your MySQL username
+root with your MySQL username
 
 your_mysql_password with your MySQL password
 
@@ -87,17 +86,9 @@ Don't forget to set Content-Type: application/json while making POST and PUT req
 
 🌟 Features
 
-User Management (Register, Login)
 
-Product Management (Add, Update, Delete Products)
+Employees Management (Add, Update, Delete Products)
 
-Cart Operations (Add/Remove products)
-
-Order Processing
-
-Payment and Refund Handling
-
-Support Ticket Management
 
 🚀 Technologies Used
 
